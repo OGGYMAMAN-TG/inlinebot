@@ -1,4 +1,4 @@
-# Modified Version Of [Media Search bot](https://github.com/Mahesh0253/Media-Search-bot)
+# Modified Version Of [Media Search bot](https://github.com/irash1234567/inlinebot)
 
 ## Added Features
 * Imdb posters for autofilter.
@@ -13,7 +13,7 @@
 ## Installation
 
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/subinps/Media-Search-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/irash1234567/inlinebot//)
 ### Hard Way
 
 ```bash
@@ -24,8 +24,7 @@ python3 -m venv env
 env\Scripts\activate.bat # For Windows
 source env/bin/activate # For Linux or MacOS
 
-# Install Packages
-pip3 install -r requirements.txt
+pip3 install -r requirements.t
 
 # Edit info.py with variables as given below then run bot
 python3 bot.py
@@ -46,7 +45,7 @@ Check [`sample_info.py`](sample_info.py) before editing [`info.py`](info.py) fil
 ### Optional Variables
 * `OMDB_API_KEY`: OMBD_API_KEY to generate imdb poster for filter results.Get it from [omdbapi.com](http://www.omdbapi.com/apikey.aspx)
 * `CUSTOM_FILE_CAPTION` : A custom caption for your files. You can format it with file_name, file_size, file_caption.(supports html formating)
-Example: `<b>Join [XTZ Bots](https://t.me/subin_works) for more useful bots</b>\n\n<code>{file_name}</code>\nSize{file_size}\n{file_caption}.`
+Example: `<b>Join [XTZ Bots](https://t.me/ULTRONBOTS) for more useful bots</b>\n\n<code>{file_name}</code>\nSize{file_size}\n{file_caption}.`
 * `AUTH_GROUPS` : ID of groups which bot should work as autofilter, bot can only work in thease groups. If not given , bot can be used in any group.
 * `COLLECTION_NAME`: Name of the collections. Defaults to Telegram_files. If you going to use same database, then use different collection name for each bot
 * `CACHE_TIME`: The maximum amount of time in seconds that the result of the inline query may be cached on the server
@@ -76,13 +75,13 @@ logger - Get log file
 
 ## Thanks to 
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
-* Original [Repo](https://github.com/Mahesh0253/Media-Search-bot)
+* Original [Repo](https://github.com/irash1234567/inlinebot)
 
 
 ## Support
-Contact Me On [Telegram](https://t.me/subinps_bot)
+Contact Me On [Telegram](https://t.me/ULTRONBOTS)
 
-[Update Channel](https://t.me/subin_works)
+[Update Channel](https://t.me/ULTRONBOTSV)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
